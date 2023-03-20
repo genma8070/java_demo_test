@@ -12,6 +12,7 @@ public class Application_0316 {
 
 	public static void main(String[] args) throws IOException {
 		String[] pwd = { "123456789", "1234567" };
+		
 		for (int i = 0; i < pwd.length; i++) {
 			try {
 				pwdCheck(pwd[i]);
